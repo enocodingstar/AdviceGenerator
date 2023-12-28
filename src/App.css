@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+main{
+    width: auto;
+    height: 640px;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adviceCard{
+    width: 400px;
+    height: 41%;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adviceCard .header{
+    position: absolute;
+    top: 210px;
+}
+.adviceCard .adviceContent{
+    height: auto;
+}
+.adviceCard .header h6{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+}
+.adviceCard .adviceContent p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.adviceCard .svgContainer{
+    position: absolute;
+    top: 400px;
+}
+.adviceCard button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    top: 425px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
